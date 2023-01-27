@@ -7,7 +7,7 @@ import "./Modal.css";
  * @param {boolean} props.showModal Modal open state
  * @param {function} props.setShowModal Modal open state setter
  * @param {string} props.title Modal title
- * @param {string} props. Modal content
+ * @param {string} props.body Modal content
  * @param {boolean} props.cancel Show cancel button if true
  * @param {function} props.cancelAction Cancel function
  * @param {boolean} props.callToAction Show the call to action button if true
