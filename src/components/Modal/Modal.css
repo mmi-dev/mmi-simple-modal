@@ -1,0 +1,94 @@
+.mmi-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100wh;
+  box-sizing: border-box;
+}
+.mmi-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 41, 79, 0.4);
+  z-index: 9990;
+}
+.mmi-modal-container {
+  position: relative;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  min-width: 400px;
+  max-width: 70wh;
+}
+.mmi-modal-header {
+  padding: 20px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.mmi-modal-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.mmi-modal-closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  /* align-self: flex-end; */
+  border: none;
+  cursor: pointer;
+  color: grey;
+}
+.mmi-modal-closeBtn:hover {
+  color: black;
+}
+.mmi-modal-body {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.mmi-modal-footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+.mmi-modal-cancelBtn,
+.mmi-modal-callToActionBtn {
+  min-width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 1.2rem;
+  font-weight: 700;
+  border: none;
+}
+.mmi-modal-cancelBtn {
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.5) inset;
+  color: rgb(211, 47, 47);
+  background-color: transparent;
+}
+.mmi-modal-cancelBtn:hover {
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.65) inset;
+  background-color: rgba(211, 47, 47, 0.05);
+}
+.mmi-modal-callToActionBtn {
+  background-color: rgb(24, 116, 208);
+  color: white;
+}
+.mmi-modal-callToActionBtn:hover {
+  background-color: rgb(21, 101, 192);
+}
