@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import "./Modal.css";
 
 /**
@@ -38,7 +38,7 @@ import "./Modal.css";
  *     />
  *
  */
-const Modal = ({
+export const Modal = ({
   showModal,
   setShowModal,
   title,

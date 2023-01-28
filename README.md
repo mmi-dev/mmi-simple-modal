@@ -11,7 +11,7 @@ npm install --save mmi-simple-modal
 ```jsx
 import React, { useState } from "react";
 
-import Modal from "mmi-simple-modal";
+import { Modal } from "mmi-simple-modal";
 
 function Example() {
   const [openModal, setOpenModal] = useState(false);
