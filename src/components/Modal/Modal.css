@@ -27,7 +27,7 @@
   min-width: 400px;
   max-width: 70vw;
   min-height: 250px;
-  transform: translateY(-70%);
+  position: relative;
 }
 .mmi-modal-title {
   padding: 20px 0 10px;
@@ -104,7 +104,6 @@
     box-shadow: none;
     min-width: 100vw;
     min-height: 100vh;
-    transform: translateY(0);
     margin: 0;
     flex-grow: 0;
     align-items: center;
