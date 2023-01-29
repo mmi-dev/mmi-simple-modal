@@ -74,11 +74,11 @@ export const Modal = ({
             >
               X
             </button>
-            <header className="mmi-modal-header">
+            <div className="mmi-modal-div">
               <div className="mmi-modal-title">{title}</div>
-            </header>
+            </div>
             <div className="mmi-modal-body">{body}</div>
-            <footer className="mmi-modal-footer">
+            <div className="mmi-modal-footer">
               {cancel && (
                 <button className="mmi-modal-cancelBtn" onClick={cancelAction}>
                   CANCEL
@@ -92,7 +92,7 @@ export const Modal = ({
                   {callToActionText.toUpperCase()}
                 </button>
               )}
-            </footer>
+            </div>
           </div>
         </div>
       )}
